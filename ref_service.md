@@ -58,7 +58,7 @@ NOTICE: In case you rebuild your postgres container, all the data will be lost,
 If you want to create new link, follow admin panel, then links->new link,
 Name it the way you want and add refs.
 IMPORTANT: Ref URL must look like this: https://yourdomain.com/, in other words, it should include procotol name.
-To use the link you simply copy the its id, and paste after index i.e. /<link_id>, so it should look like this: https://yourdomain.com/c07087f8-d0aa-46de-befd-ed93e405216c
+To use the link, you should simply follow /<link_id>, for example: https://yourdomain.com/c07087f8-d0aa-46de-befd-ed93e405216c
 
 
 
