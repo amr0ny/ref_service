@@ -1,4 +1,4 @@
-## Ref_service.md
+## Ref service
 
 A service allows one to сombine a bundle of links (called refs) into one. When a link is visited, IP address is assigned with a ref which goes in turn.
 
