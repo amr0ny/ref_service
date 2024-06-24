@@ -12,5 +12,5 @@ class Settings(BaseSettings):
     log_path: str
     log_level: str
 
-settings = Settings(_env_file='.env', _env_file_encoding='utf-8')
+settings = Settings(_env_file='.env', _env_file_encoding='utf-8', _case_sensitive = False)
 logger = Logger(settings.log_path, settings.log_level)

@@ -3,14 +3,11 @@ import os
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv('postgres_db'),
-        'USER': os.getenv('postgres_user'),
-        'PASSWORD': os.getenv('postgres_password'),
-        'HOST': os.environ.get('postgres_host'),
-        'PORT': os.getenv('postgres_port', 5432),
-        'OPTIONS': {
-            'options': '-c search_path=public,content'
-        }
+        'NAME': os.getenv('POSTGRES_DB'),
+        'USER': os.getenv('POSTGRES_USER'),
+        'PASSWORD': os.getenv('POSTGRES_PASSWORD'),
+        'HOST': os.environ.get('POSTGRES_HOST'),
+        'PORT': os.getenv('POSTGRES_PORT', 5432),
     }
 }
 
