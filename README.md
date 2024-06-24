@@ -50,7 +50,7 @@ To deploy the service and enjoy it, you have to follow next steps:
 6. Finally, you got it.
    
 NOTICE: In case you rebuild your postgres container, all the data will be lost,
-        if this contradicts your expectations, you can add next ine to postgres container in docker-compose.yml:
+        if this contradicts your expectations, you can add next line to postgres container in docker-compose.yml:
    ```yaml
    volumes:
      - $HOME/postgresql/data:/var/lib/postgresql/data
